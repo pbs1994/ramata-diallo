@@ -618,11 +618,12 @@ section{ position: relative; }
 .banner{ line-height:0; }
 .banner-frame{
   display:block; position:relative; overflow:hidden;
-  height: clamp(240px, 32vw, 460px);
+  height: clamp(300px, 42vw, 620px);
 }
 .banner-img{
   position:absolute; top:50%; left:0;
   width:100%; height: 130%; object-fit: cover;
+  object-position: center 28%;
   transform: translateY(calc(-50% + var(--py, 0px)));
   will-change: transform;
 }
@@ -698,5 +699,5 @@ section{ position: relative; }
   .footer-row{ flex-direction:column; align-items:flex-start; }
 
   .story-card::before{ font-size: 3.2rem; }
-  .banner-frame{ height: clamp(180px, 60vw, 320px); }
+  .banner-frame{ height: clamp(260px, 70vw, 420px); }
 }
