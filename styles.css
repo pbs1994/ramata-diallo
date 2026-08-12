@@ -290,7 +290,7 @@ section{ position: relative; }
 .hero-ctas{ display:flex; gap: 16px; flex-wrap: wrap; justify-content:center; }
 
 .growth-mark{ width:40px; height:40px; }
-.growth-mark--hero{ display:block; }
+.growth-mark--hero{ display:block; width:38px; height:auto; }
 .growth-mark--inline{ display:block; margin: 30px auto 0; }
 
 .scroll-cue{
@@ -314,7 +314,7 @@ section{ position: relative; }
   display:grid; grid-template-columns: 1fr 0.9fr; gap: 80px; align-items:center;
 }
 .about-text p{ margin: 0 0 20px; color: var(--ink-soft); font-size: 1.05rem; }
-.about-text p:last-child{ margin-bottom:0; }
+.about-cta{ margin-top: 8px; }
 .about-heading{
   margin-bottom: 30px;
   white-space: nowrap;
@@ -432,16 +432,8 @@ section{ position: relative; }
 }
 .lever-desc{ color: var(--ink-soft); margin:0; text-align:center; }
 
-.newsletter-embed{ margin-top: 20px; }
-.newsletter-embed-frame{
-  display:block;
-  width: 100%;
-  max-width: 480px;
-  height: 150px;
-  border: 1px solid #eee;
-  border-radius: 10px;
-  background: #fff;
-}
+.lever-cta{ margin-top: 22px; text-align:center; }
+.lever-cta .btn{ font-size: 0.78rem; padding: 13px 20px; }
 
 /* ============================================================
    Stat bar
