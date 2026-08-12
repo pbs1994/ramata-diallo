@@ -41,13 +41,11 @@ body{
   font-size: 16px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
-  cursor: url("images/pointer-cursor.png") 2 2, auto;
 }
 
-/* the browser's built-in pointer-over-link behaviour outranks an
-   inherited cursor, so interactive elements need the same custom
-   cursor spelled out explicitly (with a sane "pointer" fallback) */
-a, button, .faq-q, .nav-toggle, [role="button"]{
+/* custom cursor only on actual buttons — everywhere else keeps the
+   system default cursor */
+.btn, button{
   cursor: url("images/pointer-cursor.png") 2 2, pointer;
 }
 
