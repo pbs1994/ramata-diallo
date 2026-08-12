@@ -222,7 +222,7 @@ section{ position: relative; }
    ============================================================ */
 .hero{
   position: relative;
-  background: linear-gradient(135deg, var(--coral-1) 0%, var(--coral-3) 100%);
+  background: linear-gradient(180deg, var(--paper) 0%, var(--paper) 32%, var(--coral-1) 65%, var(--coral-3) 100%);
   padding: 84px 0 96px;
   text-align:center;
   overflow: hidden;
