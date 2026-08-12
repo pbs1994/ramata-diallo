@@ -153,23 +153,6 @@ safe('stat-counters', () => {
 });
 
 // ------------------------------------------------------------------
-// Hero cursor-reactive spotlight
-// ------------------------------------------------------------------
-safe('hero-spotlight', () => {
-  const hero = document.getElementById('hero');
-  const heroSpotlight = document.getElementById('heroSpotlight');
-  if (!hero || !heroSpotlight || !hasFinePointer || prefersReducedMotion) return;
-
-  hero.addEventListener('pointermove', (e) => {
-    const rect = hero.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
-    heroSpotlight.style.setProperty('--mx', `${x}%`);
-    heroSpotlight.style.setProperty('--my', `${y}%`);
-  });
-});
-
-// ------------------------------------------------------------------
 // Scroll cue — jump to the next section
 // ------------------------------------------------------------------
 safe('scroll-cue', () => {
