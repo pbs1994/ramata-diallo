@@ -451,6 +451,17 @@ section{ position: relative; }
 }
 .lever-desc{ color: var(--ink-soft); margin:0; text-align:left; }
 
+.newsletter-embed{ margin-top: 20px; }
+.newsletter-embed-frame{
+  display:block;
+  width: 100%;
+  max-width: 480px;
+  height: 150px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
 /* ============================================================
    Stat bar
    ============================================================ */
