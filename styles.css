@@ -205,13 +205,13 @@ section{ position: relative; }
 .section-title.center{ text-align:center; }
 
 .section-kicker{
-  max-width: 640px;
+  max-width: 900px;
   margin: 0 auto 44px;
   text-align:center;
   color: var(--muted);
-  font-size: 0.98rem;
+  font-size: clamp(0.72rem, 1.7vw, 0.9rem);
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   font-weight: 500;
 }
 
