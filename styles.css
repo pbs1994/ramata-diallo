@@ -430,7 +430,7 @@ section{ position: relative; }
   margin: 6px 0 16px; color: var(--muted);
   font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
 }
-.lever-desc{ color: var(--ink-soft); margin:0; text-align:left; }
+.lever-desc{ color: var(--ink-soft); margin:0; text-align:center; }
 
 .newsletter-embed{ margin-top: 20px; }
 .newsletter-embed-frame{
