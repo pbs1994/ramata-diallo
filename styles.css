@@ -291,7 +291,7 @@ section{ position: relative; }
 
 .growth-mark{ width:40px; height:40px; }
 .growth-mark--hero{ display:block; width:38px; height:auto; }
-.growth-mark--inline{ display:block; margin: 30px auto 0; }
+.growth-mark--inline{ display:block; width:38px; height:auto; margin: 30px auto 0; }
 
 .scroll-cue{
   position:relative; z-index:1;
