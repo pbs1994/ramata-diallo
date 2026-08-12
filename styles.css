@@ -8,8 +8,8 @@
   --paper:      #fffdfa;
   --paper-2:    #f7f2ea;
   --coral-1:    #ffb199;
-  --coral-2:    #ff5b47;
-  --coral-3:    #e8402f;
+  --coral-2:    #e62621;
+  --coral-3:    #e62621;
   --teal:       #aecac6;
   --muted:      #6f6a63;
   --line:       rgba(20,18,15,0.12);
@@ -121,10 +121,12 @@ em{ font-family: var(--font-accent); font-style: italic; font-weight: 500; }
   text-transform: uppercase;
   position: relative;
   padding: 6px 0;
+  transition: color 0.2s ease;
 }
+.primary-nav a:hover{ color: var(--coral-2); }
 .primary-nav a::after{
   content:""; position:absolute; left:0; right:100%; bottom:0; height:1px;
-  background: var(--ink); transition: right 0.25s ease;
+  background: var(--coral-2); transition: right 0.25s ease;
 }
 .primary-nav a:hover::after{ right:0; }
 
@@ -308,7 +310,7 @@ section{ position: relative; }
 
 .hero-ctas{ display:flex; gap: 16px; flex-wrap: wrap; justify-content:center; }
 
-.growth-mark{ width:40px; height:40px; }
+.growth-mark{ width:36px; height:auto; }
 .growth-mark--hero{ display:block; }
 .growth-mark--inline{ display:block; margin: 30px auto 0; }
 
