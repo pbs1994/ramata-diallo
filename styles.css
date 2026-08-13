@@ -314,7 +314,7 @@ section{ position: relative; }
   display:grid; grid-template-columns: 1fr 0.9fr; gap: 80px; align-items:center;
 }
 .about-text p{ margin: 0 0 20px; color: var(--ink-soft); font-size: 1.05rem; }
-.about-cta{ margin-top: 8px; }
+.about-cta{ margin-top: 8px; text-align:center; }
 .about-heading{
   margin-bottom: 30px;
   white-space: nowrap;
@@ -357,7 +357,7 @@ section{ position: relative; }
 }
 .press-label{
   text-align:center; font-size: 0.7rem; font-weight:700; letter-spacing: 0.2em;
-  text-transform: uppercase; color: rgba(255,253,250,0.45); margin: 0 0 24px;
+  text-transform: uppercase; color: var(--coral-2); margin: 0 0 24px;
 }
 .press-track{
   display:flex; width: max-content;
@@ -462,7 +462,7 @@ section{ position: relative; }
 }
 .stat-bar .count{
   font-family: var(--font-display); font-weight:900; font-size: 1.05rem;
-  color: var(--coral-1); font-variant-numeric: tabular-nums;
+  color: var(--coral-2); font-variant-numeric: tabular-nums;
 }
 .stat-bar .dot{ color: var(--coral-2); padding: 0 6px; }
 
@@ -512,7 +512,7 @@ section{ position: relative; }
 .speaker-label{
   display:block;
   font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em;
-  text-transform: uppercase; color: var(--coral-1);
+  text-transform: uppercase; color: var(--coral-2);
   margin-bottom: 12px;
 }
 .speaker-names{
