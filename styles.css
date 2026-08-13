@@ -411,6 +411,20 @@ section{ position: relative; }
 .lever-icon svg{ width:100%; height:100%; }
 .lever-icon svg rect{ fill:none; stroke: currentColor; stroke-width:1.4; }
 .lever-icon svg text{ fill: currentColor; }
+
+/* icons supplied as raster art: recolored via mask so they still pick
+   up currentColor (and the coral hover shift) like the inline SVGs */
+.lever-icon--mask{
+  background-color: currentColor;
+  -webkit-mask-image: var(--icon);
+  mask-image: var(--icon);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
 .lever-kicker{
   text-align: center;
   font-weight: 700; color: var(--coral-3);
