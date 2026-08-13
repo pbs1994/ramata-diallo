@@ -385,13 +385,6 @@ section{ position: relative; }
   width: auto;
   max-width: 130px;
 }
-.press-row .press-text{
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.95rem;
-  letter-spacing: 0.02em;
-  color: var(--paper);
-}
 
 /* ============================================================
    Levers
